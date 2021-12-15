@@ -211,8 +211,22 @@ const age = '18';
 if (age === 18) console.log(`you just became an adult (strict equality operator ===)`) //=== checks for exact equality
 if (age == 18) console.log(`you just became an adult (loose equality operator ==)`)
 
+const favorite = Number(prompt(`What is your favorite number?`));
+console.log(favorite);
+console.log(typeof favorite);
+if (favorite === 23) {
+    console.log(`cool,23 is an amazing number`)
+} else if (favorite === 7) {
+    console.log(`seven is also a cool number`)
+} else if (favorite === 9) {
+    console.log(`nine is also a cool number`)
+} else {
+    console.log(`number is not 23 or 7 or 9`)
+}
 
-
+if (favorite !== 23) {
+    console.log(`why not 23`)
+}
 
 
 
