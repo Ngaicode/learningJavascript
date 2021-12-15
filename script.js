@@ -163,15 +163,18 @@ if (markbmi1 > johnBmiOne) {
     console.log(`John's BMI (${johnBmiOne}) is higher than Mark's BMI (${markbmi1})`)
 }*/
 
-
+// type conversion = this happens when the programmer manually converts data types
 const inputYear = '1991';
 console.log(Number(inputYear), inputYear);
 console.log(Number(inputYear) + 18);
 console.log(Number('Kevin'));
 console.log(typeof NaN);
+console.log(String(23), 23);
 
-
-
+// type coersion = this happens when javascript automatically converts data types for us behind te scenes
+console.log('i am ' + 23 + 'years old');
+console.log('23' - '10' - 3);
+console.log('23' / '2');
 
 
 
