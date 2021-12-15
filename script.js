@@ -226,7 +226,7 @@ if (favorite === 23) {
 
 if (favorite !== 23) {
     console.log(`why not 23`)
-}*/
+}
 
 
 
@@ -251,11 +251,29 @@ if (hasDriversLiscence && hasGoodVision && !isTired) {
     console.log(`Sarah is able to drive`);
 } else {
     console.log(`someone else should drive`)
+}*/
+
+const dolphinAverageScore = (97 + 112 + 81) / 3;
+console.log(dolphinAverageScore);
+const koalaAverageScore = (95 + 109 + 86) / 3;
+console.log(koalaAverageScore);
+
+// if (dolphinAverageScore > koalaAverageScore) {
+//     console.log(`Dolphins win`)
+// } else {
+//     console.log(`koalas win`)
+// }
+// if ((dolphinAverageScore && koalaAverageScore) > 100) {
+//     console.log(`both teams qualify to win`)
+if (dolphinAverageScore > koalaAverageScore && dolphinAverageScore >= 100) {
+    console.log(`Dolphins win`)
+} else if (koalaAverageScore > dolphinAverageScore && koalaAverageScore >= 100) {
+    console.log(`Koalas win`)
+} else if (koalaAverageScore === dolphinAverageScore && dolphinAverageScore >= 100 && koalaAverageScore >= 100) {
+    console.log(`both win the trophy`)
+} else {
+    console.log(`nobody wins the trophy`)
 }
-
-
-
-
 
 
 
