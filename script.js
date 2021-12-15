@@ -204,7 +204,7 @@ if (height) {
     console.log(`YAY height is defined`)
 } else {
     console.log(`height is not defined`)
-}*/
+}
 
 // working with eqaulity operators
 const age = '18';
@@ -226,8 +226,32 @@ if (favorite === 23) {
 
 if (favorite !== 23) {
     console.log(`why not 23`)
-}
+}*/
 
+
+
+//using logical operators
+
+const hasDriversLiscence = true;
+const hasGoodVision = true;
+console.log(hasDriversLiscence && hasGoodVision);
+console.log(hasDriversLiscence || hasGoodVision);
+console.log(!hasDriversLiscence);
+
+// if (hasDriversLiscence && hasGoodVision) {
+//     console.log(`Sarah is able to drive`);
+// } else {
+//     console.log(`someone else should drive`)
+// }
+
+const isTired = false;
+console.log(hasDriversLiscence && hasGoodVision && isTired);
+
+if (hasDriversLiscence && hasGoodVision && !isTired) {
+    console.log(`Sarah is able to drive`);
+} else {
+    console.log(`someone else should drive`)
+}
 
 
 
