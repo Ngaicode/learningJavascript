@@ -179,7 +179,7 @@ console.log('23' / '2');
 // guessing game
 let n = '1' + 1;
 n = n - 1;
-console.log(n);*/
+console.log(n);
 
 // 5 falsy values :0,undefined,''(empty string),null,Nan
 
@@ -204,9 +204,12 @@ if (height) {
     console.log(`YAY height is defined`)
 } else {
     console.log(`height is not defined`)
-}
+}*/
 
-
+// working with eqaulity operators
+const age = '18';
+if (age === 18) console.log(`you just became an adult (strict equality operator ===)`) //=== checks for exact equality
+if (age == 18) console.log(`you just became an adult (loose equality operator ==)`)
 
 
 
