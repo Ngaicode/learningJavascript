@@ -122,7 +122,7 @@ console.log('string with \n\
 multiple\n\
 lines')
 //template literals make it much easier to write multi line strings
-console.log(`string with    
+console.log(`string with
 multiple
 lines`)
 
@@ -161,7 +161,7 @@ if (markbmi1 > johnBmiOne) {
     console.log(`Mark's BMI (${markbmi1}) is higher than John's BMI (${johnBmiOne})`);
 } else {
     console.log(`John's BMI (${johnBmiOne}) is higher than Mark's BMI (${markbmi1})`)
-}*/
+}
 
 // type conversion = this happens when the programmer manually converts data types
 const inputYear = '1991';
@@ -179,7 +179,35 @@ console.log('23' / '2');
 // guessing game
 let n = '1' + 1;
 n = n - 1;
-console.log(n);
+console.log(n);*/
+
+// 5 falsy values :0,undefined,''(empty string),null,Nan
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(''));
+console.log(Boolean(null));
+console.log(Boolean(NaN));
+console.log(Boolean(1));
+console.log(Boolean('Mwathi'));
+console.log({});
+
+const money = 00;
+if (money) {
+    console.log(`Don't spend it all`)
+} else {
+    console.log(`You should get a job`)
+}
+
+let height;
+if (height) {
+    console.log(`YAY height is defined`)
+} else {
+    console.log(`height is not defined`)
+}
+
+
+
 
 
 
