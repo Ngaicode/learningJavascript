@@ -276,7 +276,7 @@ if (dolphinAverageScore > koalaAverageScore && dolphinAverageScore >= 100) {
 }*/
 
 
-const day = 'tuesday';
+const day = 'friday';
 switch (day) {
     case 'monday':
         console.log('Plan course structure');
@@ -296,7 +296,26 @@ switch (day) {
     case 'sunday':
         console.log(`enjoy your weekend`);
         break;
+    default:
+        console.log(`not a valid day`);
 
+}
+
+const day = 'suy';
+
+if (day === 'monday') {
+    console.log(`plan course structure`);
+    console.log(`go to coding meetup`);
+} else if (day === 'tuesday') {
+    console.log(`prepere theory lectures`);
+} else if (day === 'wednesday' || day === 'thursday') {
+    console.log(`write code examples`);
+} else if (day === 'friday') {
+    console.log(`record videos`)
+} else if (day === 'saturday' || day === 'sunday') {
+    console.log(`enjoy your weekend`)
+} else {
+    console.log(`not a valid day`)
 }
 
 
