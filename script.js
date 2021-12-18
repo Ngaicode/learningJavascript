@@ -251,7 +251,7 @@ if (hasDriversLiscence && hasGoodVision && !isTired) {
     console.log(`Sarah is able to drive`);
 } else {
     console.log(`someone else should drive`)
-}*/
+}
 
 const dolphinAverageScore = (97 + 112 + 81) / 3;
 console.log(dolphinAverageScore);
@@ -273,44 +273,48 @@ if (dolphinAverageScore > koalaAverageScore && dolphinAverageScore >= 100) {
     console.log(`both win the trophy`)
 } else {
     console.log(`nobody wins the trophy`)
+}*/
+
+
+const day = 'friday';
+switch (day) {
+    case 'monday':
+        console.log('Plan course structure');
+        console.log('Go to coding meetup');
+        break;
+    case 'tuesday':
+        console.log(`Prepare theory lectures`);
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log(`write code examples`);
+        break;
+    case 'friday':
+        console.log(`record videos`);
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log(`enjoy your weekend`);
+        break;
+    default:
+        console.log(`not a valid day`);
+
 }
 
+const day = 'suy';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if (day === 'monday') {
+    console.log(`plan course structure`);
+    console.log(`go to coding meetup`);
+} else if (day === 'tuesday') {
+    console.log(`prepere theory lectures`);
+} else if (day === 'wednesday' || day === 'thursday') {
+    console.log(`write code examples`);
+} else if (day === 'friday') {
+    console.log(`record videos`)
+} else if (day === 'saturday' || day === 'sunday') {
+    console.log(`enjoy your weekend`);
+} else {
+    console.log(`not a valid day`);
+    console.log(`it isn't a valid day`)
+}
